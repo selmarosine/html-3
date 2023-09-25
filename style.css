@@ -1,0 +1,89 @@
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    background-color: papayawhip;
+    height:100px;
+    width:100%;
+  }
+
+  .head-left {
+    color:red;
+  }
+
+  .head-right {
+    font-size:20px;
+    align-items: center;
+  }
+
+.container {
+    background-color: pink;
+    display:flex;
+    padding:15px;
+  }
+
+  .con-left {
+    width:60%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    gap:15px;
+  }
+
+  .con-right {
+    width:40%;
+  }
+
+.notes {
+    background-color: #d4eda1;
+    width:347px;
+    height:332px;
+   }
+
+   .notes-tags {
+    display: flex;
+    width:70%;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color: yellow;
+    
+    font-size: 17px;
+    align-items:center;
+    gap:20px;
+   }
+
+   .notes p {
+    background-color: #fa6262;
+   }
+
+.sidebar {
+    background-color: #a1dbed;
+    right:0;
+  }
+
+ .sidebar h1 {
+    font-size: 45px;
+}
+
+ .sidebar p {
+    width:360px;
+    height:128px;
+    font-size: 18px;
+}
+
+ .sidebarButtons {
+    display:flex;
+    gap:20px;
+}
+
