@@ -22,6 +22,10 @@
     color:red;
   }
 
+  .head-left h1 {
+    padding:7px;
+  }
+
   .head-right {
     font-size:20px;
     align-items: center;
@@ -50,6 +54,7 @@
     width:347px;
     height:332px;
     border-radius:12px;
+    position: relative;
    }
 
    .notes-tags {
@@ -76,6 +81,16 @@
     padding:5px;
     font-size: 20px;
     margin-top:-3px;
+   }
+
+   .arrow {
+    background-color:#ff7b7b;
+    height:35px;
+    width:35px;
+    position:absolute;
+    right:0;
+    bottom:0;
+    border-radius: 0 0 12px 0;
    }
 
 .sidebar {
