@@ -63,8 +63,9 @@
     gap:20px;
    }
 
-   .notes p {
+   .notes h2 {
     background-color: #fa6262;
+    font-size:33px;
    }
 
 .sidebar {
