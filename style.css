@@ -68,6 +68,13 @@
     font-size:33px;
    }
 
+   .notes p {
+    background-color: green;
+    padding:5px;
+    font-size: 20px;
+    margin-top:-3px;
+   }
+
 .sidebar {
     background-color: #a1dbed;
     right:0;
