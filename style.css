@@ -73,7 +73,8 @@
 
    .notes h2 {
     background-color: #fa6262;
-    font-size:33px;
+    font-size:28px;
+    font-family:poppins;
    }
 
    .notes p {
@@ -100,10 +101,13 @@
 .sidebar {
     background-color:white;
     right:0;
+    padding:5px;
   }
 
  .sidebar h1 {
     font-size: 45px;
+    font-family: poppins;
+    margin-top:-10px;
 }
 
  .sidebar p {
